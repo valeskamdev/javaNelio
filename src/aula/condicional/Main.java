@@ -1,8 +1,8 @@
-package aula;
+package aula.condicional;
 
 import java.util.Scanner;
 
-public class Condicional {
+public class Main {
     public static void main(String[] args) {
 
         /*
