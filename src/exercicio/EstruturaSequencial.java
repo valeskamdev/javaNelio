@@ -80,9 +80,9 @@ public class EstruturaSequencial {
            d) a area do quadrado que tem lado Y
            e) a area do retangulo que tem aldos X e Y */
 
-        float x = scanner.nextFloat();
-        float y = scanner.nextFloat();
-        float z = scanner.nextFloat();
+        double x = scanner.nextDouble();
+        double y = scanner.nextDouble();
+        double z = scanner.nextDouble();
         double triangulo = x * z / 2;
         double circulo = 3.14159 * Math.pow(z, 2);
         double trapezio = (x + y) * z / 2;
