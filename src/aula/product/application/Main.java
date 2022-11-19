@@ -26,7 +26,7 @@ public class Main {
         System.out.println("Quantity in stock: ");
         product.quantity = scanner.nextInt();
 
-        System.out.println(product.name + " " + product.price + " " + product.quantity);
+        System.out.println(product);
 
 
         scanner.close();
