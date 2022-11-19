@@ -1,6 +1,6 @@
-package aula.application;
+package aula.triangle.application;
 
-import aula.entities.Triangle;
+import aula.triangle.entities.Triangle;
 import java.util.Locale;
 import java.util.Scanner;
 

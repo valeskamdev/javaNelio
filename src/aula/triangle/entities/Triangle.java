@@ -1,4 +1,4 @@
-package aula.entities;
+package aula.triangle.entities;
 
 public class Triangle {
 
