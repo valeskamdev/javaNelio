@@ -35,11 +35,9 @@ public class Main {
         y.b = scanner.nextDouble();
         y.c = scanner.nextDouble();
 
-        double p = (x.a + x.b + x.c) / 2;
-        double areaX = Math.sqrt(p * (p - x.a) * (p - x.b) * (p - x.c));
-
-        p = (y.a + y.b + y.c) / 2;
-        double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
+        // chamada de método, calculando cada area dos traingulos
+        double areaX = x.area();
+        double areaY = y.area();
 
         System.out.printf("Trianfle X area: %.4f%n", areaX);
         System.out.printf("Trianfle Y area: %.4f%n", areaY);
