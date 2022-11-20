@@ -2,7 +2,6 @@ package aula.product.application;
 
 import aula.product.entities.Product;
 
-import java.sql.SQLOutput;
 import java.util.Locale;
 import java.util.Scanner;
 
