@@ -24,13 +24,16 @@ public class Main {
         System.out.printf("Tax: %.2f%n", employee.tax);
 
         System.out.println();
-        System.out.printf("Employee: " + employee + "%.2f", employee.netSalary() );
+        System.out.println("Employee: " + employee);
 
         System.out.println();
         System.out.println("Which percentage to increase salary? ");
-        double calculation = scanner.nextDouble();
+        double percentage = scanner.nextDouble();
+        employee.increaseSalary(percentage);
 
         System.out.println();
-        System.out.printf("Updated data: " + employee + "%.2f", employee.increaseSalary(calculation));
+        System.out.println("Updated data: " + employee);
+
+        scanner.close();
     }
 }
