@@ -22,17 +22,15 @@ public class Main {
         String name = scanner.nextLine();
         System.out.println("Price: ");
         double price = scanner.nextDouble();
-        System.out.println("Quantity in stock: ");
-        int quantity = scanner.nextInt();
 
-        Product product = new Product(name, price, quantity);
+        Product product = new Product(name, price);
 
         System.out.println();
         System.out.println("Product data: " + product);
 
         System.out.println();
         System.out.println("Enter the number of products to be added in stock: ");
-        quantity = scanner.nextInt();
+        int quantity = scanner.nextInt();
         product.addProducts(quantity);
 
         System.out.println();
