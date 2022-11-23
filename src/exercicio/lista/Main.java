@@ -69,7 +69,7 @@ public class Main {
         scanner.close();
     }
 
-    // verificando se a lista tiver o id do funcionario forncecido
+    // verificando se a lista tem o id do funcionario forncecido
     public static boolean hasId(List<Funcionario> list, int id) {
         Funcionario emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
         return emp != null;
